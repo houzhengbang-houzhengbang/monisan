@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.monisan.v.activity.ParticularsActivity">
+
+
+    <com.youth.banner.Banner
+        android:id="@+id/particulars_img"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="7" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/particulars_tex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/particulars_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:id="@+id/particulars_tiaozhuan"
+            android:layout_weight="1"
+            android:text="跳转到购物车"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/particulars_tianjia"
+            android:layout_weight="1"
+            android:text="添加到购物车"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:textColor="#ffffff"
+            android:background="#ff00"
+            android:id="@+id/particulars_buy"
+            android:layout_weight="1"
+            android:text="购买"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
